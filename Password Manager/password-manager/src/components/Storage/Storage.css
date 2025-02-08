@@ -3,14 +3,16 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background-color: rgba(255, 255, 255, 0.329);
+  background: #4e4e4ee1;
   border-radius: 5px;
   width: 260px;
   height: 100px;
   padding: 12px;
   font-family: "Roboto";
+  font-weight: 400;
 }
 .storage--header {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 }
