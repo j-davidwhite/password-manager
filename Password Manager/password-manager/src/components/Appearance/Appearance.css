@@ -1,0 +1,35 @@
+.appearance {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px 0 25px;
+  gap: 40px;
+  padding: 25px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.appearance-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.background {
+  width: 150px;
+  height: 75px;
+  cursor: pointer;
+}
+.background:hover {
+  transform: scale(1.2);
+}

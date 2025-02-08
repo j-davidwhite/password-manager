@@ -1,0 +1,7 @@
+.copy-button {
+  cursor: pointer;
+}
+.copy-button svg {
+  width: 20px;
+  height: auto px;
+}

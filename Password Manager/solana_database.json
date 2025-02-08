@@ -1,0 +1,25 @@
+{
+  "vault": [
+    {
+      "website": "facebook",
+      "accounts": [
+        { "username": "user1", "password": "password1" },
+        { "username": "user2", "password": "password2" }
+      ]
+    },
+    {
+      "website": "instagram",
+      "accounts": [
+        { "username": "user1", "password": "password1" },
+        { "username": "user2", "password": "password2" }
+      ]
+    },
+    {
+      "website": "twitter",
+      "accounts": [
+        { "username": "user1", "password": "password1" },
+        { "username": "user2", "password": "password2" }
+      ]
+    }
+  ]
+}

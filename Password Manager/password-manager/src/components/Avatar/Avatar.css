@@ -1,0 +1,67 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 95%;
+}
+
+.photo-group {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  gap: 40px;
+}
+.photo-group h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+.avatar-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+}
+.avatar-container .avatar {
+  height: auto;
+  width: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+.avatar-container .avatar:hover {
+  transform: scale(1.2);
+}
+
+/* ======= LOADING ANIMATION ======== */
+.loading-animation {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #474bff 94%, #0000) top/9px 9px
+      no-repeat,
+    conic-gradient(#0000 30%, #474bff);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+  animation: spinner-c7wet2 1s infinite linear;
+}
+@keyframes spinner-c7wet2 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

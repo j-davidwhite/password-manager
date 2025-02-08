@@ -1,0 +1,53 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.075);
+  padding: 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.settings a {
+  color: inherit;
+  text-decoration: none;
+}
+.settings a:visited {
+  color: inherit;
+}
+.settings--nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.settings--nav-link.active {
+  background-color: rgba(255, 255, 255, 0.329);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.settings--nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+}
+
+.settings span {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  height: 2px;
+  width: 100%;
+}

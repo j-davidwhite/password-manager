@@ -1,0 +1,72 @@
+{
+  "user": [
+    {
+      "fName": "John",
+      "lName": "Doe",
+      "email": "email@gmail.com",
+      "masterPassword": "EncryptedMasterPassword",
+      "publicKey": "Gxej6D6x8x87WYZ9C4YAK8jnYUVUMWoGB1acJ9shacXq",
+      "theme": "dark",
+      "avatar": "Boy 01.png",
+      "vault": "true",
+      "bumpSeed": "252",
+      "pda": "F9PN5fb22dpbiCnyLNrnREJnCr2HFFqLxbemWpwJ6fzy"
+    }
+  ],
+  "passwords": [
+    {
+      "website": "facebook",
+      "accounts": [
+        { "username": "user1", "password": "*********", "tag": "Social Media" },
+        { "username": "user2", "password": "*********", "tag": "Work" }
+      ]
+    },
+    {
+      "website": "instagram",
+      "accounts": [
+        { "username": "user1", "password": "*********", "tag": "Social Media" },
+        { "username": "user2", "password": "*********", "tag": "Work" }
+      ]
+    },
+    {
+      "website": "twitter",
+      "accounts": [
+        { "username": "user1", "password": "*********", "tag": "Social Media" },
+        { "username": "user2", "password": "*********", "tag": "Work" }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "userId": "d4e1b8ad-93e5-4b6e-b71d-15c5c6dadd78",
+      "message": "Your password for Facebook has been successfully updated.",
+      "read": false,
+      "timestamp": "2025-01-07T10:00:00Z",
+      "actionLink": "/settings"
+    }
+  ],
+  "sharedPasswordsByMe": [
+    {
+      "sharedWith": "1a2b3c4d5e6f7g8h9i0j",
+      "website": "facebook",
+      "username": "user1",
+      "password": "EncryptedPassword",
+      "tag": "Social Media",
+      "sharedAt": "2025-01-07T10:00:00Z",
+      "expiration": "2025-02-07T10:00:00Z",
+      "status": "active"
+    }
+  ],
+  "sharedPasswordsWithMe": [
+    {
+      "sharedBy": "d4e1b8ad-93e5-4b6e-b71d-15c5c6dadd78",
+      "website": "facebook",
+      "username": "user1",
+      "password": "EncryptedPassword",
+      "tag": "Social Media",
+      "sharedAt": "2025-01-06T15:30:00Z",
+      "expiration": "2025-02-06T15:30:00Z",
+      "status": "active"
+    }
+  ]
+}

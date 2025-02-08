@@ -1,0 +1,11 @@
+/mnt/c/Users/joshu/OneDrive/VS Code/Password Manager/password-manager/program/target/sbf-solana-solana/release/deps/libsolana_borsh-eed39ce9205a7a53.rmeta: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/deprecated.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/macros.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v0_10.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v1.rs
+
+/mnt/c/Users/joshu/OneDrive/VS Code/Password Manager/password-manager/program/target/sbf-solana-solana/release/deps/libsolana_borsh-eed39ce9205a7a53.rlib: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/deprecated.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/macros.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v0_10.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v1.rs
+
+/mnt/c/Users/joshu/OneDrive/VS Code/Password Manager/password-manager/program/target/sbf-solana-solana/release/deps/solana_borsh-eed39ce9205a7a53.d: /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/lib.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/deprecated.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/macros.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v0_10.rs /root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v1.rs
+
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/lib.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/deprecated.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/macros.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v0_10.rs:
+/root/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-borsh-2.1.7/src/v1.rs:
