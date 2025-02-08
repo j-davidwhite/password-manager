@@ -63,6 +63,7 @@
   height: 50px;
   width: 80%;
   padding: 0 20px 0 20px;
+  font-weight: 100;
 }
 .sidebar--item.active {
   display: grid;
