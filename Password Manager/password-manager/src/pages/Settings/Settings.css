@@ -4,11 +4,15 @@
 
   border-radius: 20px;
   height: 100%;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.075);
+  width: 98%;
+  background-image: linear-gradient(to bottom, 
+  #4e4e4e 0%,   /* The first color starts at the very top */
+  #252525 70%,  /* The second color starts at 20% */
+  #232323 80%,  /* The third color starts at 40% */
+  #202020 95%,  /* The fourth color starts at 60% */
+  #1e1e1e 100%  /* The last color starts at 100% (bottom) */
+);
+
   padding: 25px;
   margin-top: 10px;
   font-size: 16px;

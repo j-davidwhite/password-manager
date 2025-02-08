@@ -6,6 +6,7 @@
   background-color: #1e1e1e;
 
   height: 125px;
+  z-index: 2;
 
 }
 .connection-status {

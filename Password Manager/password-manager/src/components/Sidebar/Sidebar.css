@@ -10,17 +10,19 @@
   width: 100%;
   padding: 30px 0 30px 0;
   font-family: "Roboto";
+  position: relative;
 }
 .sidebar::before{
   content: '';
   position: absolute;
-  background: radial-gradient(closest-side,#701ac777, #1e1e1e);
+  background: radial-gradient(closest-side,#522da8a2, #1e1e1e);
 
   width: 500px;
   height: 500px;
 
   top: -290px;
   left: -160px;
+  z-index: 1;
 
 }
 .sidebar a {
@@ -63,7 +65,7 @@
   height: 50px;
   width: 80%;
   padding: 0 20px 0 20px;
-  font-weight: 100;
+  font-weight: 100
 }
 .sidebar--item.active {
   display: grid;
@@ -71,12 +73,15 @@
   align-items: center;
   justify-content: center;
 
-  background: rgba(255, 255, 255, 0.384);
+
+  background: #5c5c5c;
+  
   gap: 10px;
   border-radius: 5px;
   height: 50px;
   width: 80%;
 }
 .sidebar--item:hover {
-  background: rgba(255, 255, 255, 0.384);
+  /*background: rgba(255, 255, 255, 0.384);*/
+  background: #4e4e4ee1;
 }

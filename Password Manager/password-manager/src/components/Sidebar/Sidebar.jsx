@@ -8,6 +8,7 @@ import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import Storage from "../Storage/Storage";
 import Logo from "../../assets/icons8-logo.png";
 import KeyRoundedIcon from "@mui/icons-material/KeyRounded";
+import { House, Settings, Bell, KeyRound} from 'lucide-react';
 
 const Sidebar = () => {
   return (
@@ -22,7 +23,7 @@ const Sidebar = () => {
           activeClassName="active"
           to="/all-passwords"
         >
-          <HomeRoundedIcon />
+          <House/>
           All Passwords
         </NavLink>
 
@@ -31,7 +32,7 @@ const Sidebar = () => {
           activeClassName="active"
           to="/notifications"
         >
-          <NotificationsRoundedIcon />
+          <Bell/>
           Notifications
         </NavLink>
 
@@ -40,7 +41,7 @@ const Sidebar = () => {
           activeClassName="active"
           to="/shared-passwords"
         >
-          <KeyRoundedIcon />
+          <KeyRound/>
           Shared Passwords
         </NavLink>
 
@@ -49,7 +50,7 @@ const Sidebar = () => {
           activeClassName="active"
           to="/settings"
         >
-          <SettingsRoundedIcon />
+          <Settings />
           Settings
         </NavLink>
       </div>

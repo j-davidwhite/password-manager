@@ -12,6 +12,7 @@
 
 .dashboard > .header {
   grid-area: header;
+  z-index: 1;
 
 }
 
@@ -22,6 +23,7 @@
 
 .dashboard > .main-content {
   grid-area: main-content;
+  z-index: 1;
 
   overflow: hidden;
 }
