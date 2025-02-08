@@ -3,11 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 25px;
-  background: rgba(255, 255, 255, 0.15);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.075);
+  background-color: #1e1e1e;
+
   height: 125px;
+
 }
 .connection-status {
   display: flex;

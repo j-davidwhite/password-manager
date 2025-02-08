@@ -15,7 +15,7 @@ const Appearance = () => {
   );
 
   return (
-    <div className="appearance">
+    <div className="appearance" >
       <div className="appearance-section">
         <div>Theme</div>
         <div className="theme-container">{/* Input Themes */}</div>
