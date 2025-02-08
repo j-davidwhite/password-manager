@@ -4,7 +4,7 @@ import Default from "../assets/Backgrounds/unsplash02.jpg";
 const BackgroundContext = createContext();
 
 export const BackgroundProvider = ({ children }) => {
-  const [background, setBackground] = useState(null);
+  const [background, setBackground] = useState(Default);
 
   useEffect(() => {
     if (background) {
