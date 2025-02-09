@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import PasswordRoundedIcon from "@mui/icons-material/PasswordRounded";
@@ -6,15 +6,27 @@ import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import Storage from "../Storage/Storage";
-import Logo from "../../assets/icons8-logo.png";
 import KeyRoundedIcon from "@mui/icons-material/KeyRounded";
 import { House, Settings, Bell, KeyRound} from 'lucide-react';
 
 const Sidebar = () => {
+
+  const [logo, setLogo] = useState('');
+  const [count, setCount] = useState(0)
+
+  const handleChangeLogo = () => {
+    setCount(prevCount => {
+      const newCount = prevCount + 1;
+      const LogoPath = window.location.origin + `/logo (${newCount}).png`; // Construct the new logo path
+      setLogo(LogoPath);
+      return newCount; // Return the updated count value
+    });
+  };
+
   return (
     <div className="sidebar">
       <div className="sidebar--header">
-        <img src={Logo}></img>
+        <img src={logo}></img>
         <h2>NodeVault</h2>
       </div>
       <div className="sidebar--nav">
@@ -57,6 +69,7 @@ const Sidebar = () => {
       <div className="sidebar--storage">
         <Storage />
       </div>
+      <button onClick={handleChangeLogo}   style={{ width: '40px', height: '20px' }}>Button</button>
     </div>
   );
 };

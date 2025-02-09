@@ -6,6 +6,7 @@
   #202020 95%,  /* The fourth color starts at 60% */
   #1e1e1e 100%  /* The last color starts at 100% (bottom) */
 );
+border-radius: 15px;
   height: 100%;
   width: 100%;
 }

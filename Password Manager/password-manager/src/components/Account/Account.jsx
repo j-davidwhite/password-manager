@@ -25,8 +25,8 @@ const Account = () => {
 
       {isPasswordModalOpen && (
         <div className="password-modal">
-          <div>Update Your Password</div>
-          <div>Enter your current password and new password.</div>
+          <div className="password-modal__heading">Update Your Password</div>
+          <div className="password-modal__text">Enter your current password and new password.</div>
           <div className="password-modal__input-section">
             <TextField
               className="password-modal__input"
@@ -58,8 +58,8 @@ const Account = () => {
 
       {isDeleteModalOpen && (
         <div className="delete-modal">
-          <div>Delete Account</div>
-          <div>
+          <div  className="delete-modal__heading">Delete Account</div>
+          <div  className="delete-modal__text">
             Deleting your account will remove all your information from our
             database and the Solana bloackchain. Your data cannot be recovered.
           </div>

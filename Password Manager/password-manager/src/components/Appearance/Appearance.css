@@ -1,9 +1,8 @@
 .appearance {
   display: flex;
   flex-direction: column;
-  margin: 0 25px 0 25px;
   gap: 40px;
-  padding: 25px;
+  padding: 30px;
   width: 100%;
   height: 100%;
   overflow: auto;

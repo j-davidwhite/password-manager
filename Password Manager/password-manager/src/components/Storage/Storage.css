@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   background: #4e4e4ee1;
   border-radius: 5px;
-  width: 260px;
+  width: 80%;
   height: 100px;
   padding: 12px;
   font-family: "Roboto";

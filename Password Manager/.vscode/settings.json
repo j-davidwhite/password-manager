@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["Devnet", "solana"]
+  "cSpell.words": ["Devnet", "solana"],
+  "css.peek.enable": true
 }

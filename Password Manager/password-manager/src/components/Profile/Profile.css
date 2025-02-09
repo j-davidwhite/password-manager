@@ -1,9 +1,8 @@
 .profile {
   display: flex;
   flex-direction: column;
-  margin: 0 25px 0 25px;
   gap: 40px;
-  padding: 25px;
+  padding: 30px;
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -15,21 +14,21 @@
   grid-template-columns: 0.8fr 1fr auto;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
 }
 .profile .profile--name {
   display: grid;
   grid-template-columns: 0.8fr 1fr auto;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
 }
 .profile .profile--email {
   display: grid;
   grid-template-columns: 0.8fr 1fr auto;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 100%;
   margin-bottom: 30px;
 }
 .profile--photo > img {
@@ -40,7 +39,7 @@
 .profile span {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   height: 2px;
-  width: 95%;
+  width: 100%;
 }
 /* ======= BUTTON ====== */
 .profile button {
@@ -112,9 +111,27 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 6px;
   width: 100%;
 }
 .name-modal__input {
   width: 70%;
+}
+
+/* ======== MUI INPUT FIELDS ====== */
+
+.profile .MuiFilledInput-root{
+  background-color: rgba(0, 0, 0, 0.178);
+  color:  rgba(255, 255, 255, 0.801);
+}
+.profile .MuiFilledInput-underline:before {
+  border-bottom-color: rgba(255, 255, 255, 0.15);
+}
+.profile .MuiFilledInput-underline:after {
+  border-bottom-color: rgba(255, 255, 255, 0.315);
+}
+.profile .MuiInputLabel-filled {
+  color: rgba(255, 255, 255, 0.575);
+  font-weight: 100;
+  font-size: 0.9rem;
 }

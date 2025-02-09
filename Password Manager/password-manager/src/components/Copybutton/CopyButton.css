@@ -1,7 +1,58 @@
 .copy-button {
   cursor: pointer;
+  
+
 }
 .copy-button svg {
   width: 20px;
-  height: auto px;
+  height: auto;
+  margin-top: 3px;
+
+}
+
+.fade-check-enter {
+  opacity: 0;
+  transition: opacity 100ms;
+}
+
+.fade-check-enter-active {
+  opacity: 1;
+}
+
+.fade-check-exit {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.fade-check-exit-active {
+  opacity: 0;
+}
+
+.fade-copy-enter {
+
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+.fade-copy-enter-active {
+  opacity: 1;
+}
+
+.fade-copy-exit {
+  opacity: 1;
+  transition: opacity 100ms;
+}
+
+.fade-copy-exit-active {
+  opacity: 0;
+}
+.fade-copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fade-check{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
