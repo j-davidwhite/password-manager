@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from "react";
-import Default from "../assets/Avatar/default.png";
+import Default from "../assets/Avatar/user (2).png";
 
 const AvatarContext = createContext();
 

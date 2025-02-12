@@ -1,7 +1,6 @@
 .copy-button {
   cursor: pointer;
-  
-
+  position: relative;
 }
 .copy-button svg {
   width: 20px;
@@ -55,4 +54,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.check{
+  position: absolute;
+  top: -7px;
+  right: 5px;
+ 
+}
+.copy{
+  top: -7px;
+  right: 5px;
+  position: absolute;
 }

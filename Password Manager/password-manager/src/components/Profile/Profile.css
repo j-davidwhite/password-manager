@@ -42,16 +42,17 @@
   width: 100%;
 }
 /* ======= BUTTON ====== */
-.profile button {
+.profile--edit-btn{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 60px;
   height: 30px;
 
+
   cursor: pointer;
 }
-.profile button:hover {
+.profile--edit-btn:hover {
   transform: scale(1.1);
 }
 
@@ -116,6 +117,28 @@
 }
 .name-modal__input {
   width: 70%;
+}
+.profile .name-modal__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.397);
+  width: 30%;
+  height: 35px;
+  border-radius: 5px;
+  overflow: hidden; 
+  z-index: 2;
+  transform: all 0.3s ease;
+}
+.profile .name-modal__btn:hover {
+  cursor: pointer;
+  color: black;  
+  box-shadow: 0px 15px 20px rgba(131, 46, 229, 0.4);
+  transform: translateY(-6px);
+  background-color: #932ee5b7;
 }
 
 /* ======== MUI INPUT FIELDS ====== */

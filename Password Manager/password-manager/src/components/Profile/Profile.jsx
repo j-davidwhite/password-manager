@@ -48,7 +48,7 @@ const Profile = () => {
         <div className="profile--value">
           {firstName} {lastName}
         </div>
-        <button onClick={handleNameModal}>
+        <button onClick={handleNameModal} className="profile--edit-btn">
           {isNameModalOpen ? "Back" : "Edit"}
         </button>
       </di>
@@ -71,13 +71,14 @@ const Profile = () => {
               onChange={handleLastNameChange}
             />
           </div>
+          <div className="name-modal__btn">Confirm</div>
         </div>
       )}
       <span></span>
       <div className="profile--email">
         <div className="profile--label">Email Address</div>
         <div className="profile--value">j.white@gmail.com</div>
-        <button>Edit</button>
+        <button className="profile--edit-btn">Edit</button>
       </div>
     </div>
   );
