@@ -32,7 +32,7 @@ const Sidebar = () => {
       <div className="sidebar--nav">
         <NavLink
           className="sidebar--item"
-          activeClassName="active"
+
           to="/all-passwords"
         >
           <House/>
@@ -41,7 +41,7 @@ const Sidebar = () => {
 
         <NavLink
           className="sidebar--item"
-          activeClassName="active"
+     
           to="/notifications"
         >
           <Bell/>
@@ -50,7 +50,7 @@ const Sidebar = () => {
 
         <NavLink
           className="sidebar--item"
-          activeClassName="active"
+  
           to="/shared-passwords"
         >
           <KeyRound/>
@@ -59,7 +59,7 @@ const Sidebar = () => {
 
         <NavLink
           className="sidebar--item"
-          activeClassName="active"
+
           to="/settings"
         >
           <Settings />

@@ -11,22 +11,6 @@ const Wallet = ({ connection }) => {
   const [recipient, setRecipient] = useState(""); // To store the recipient address
   const [amount, setAmount] = useState(""); // To store the amount to send
 
-  const toggleWallet = async () => {
-    if (!wallet) {
-      alert("Please select a wallet before connecting.");
-      return;
-    }
-
-    try {
-      if (connected) {
-        await disconnect(); // Disconnect wallet
-      } else {
-        await connect(); // Connect wallet
-      }
-    } catch (error) {
-      console.error("Error toggling wallet:", error);
-    }
-  };
 
   // Handle transaction logic
   const handleSendTransaction = async () => {

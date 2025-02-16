@@ -6,13 +6,14 @@ import {
   ConnectionProvider,
   WalletProvider,
 } from "@solana/wallet-adapter-react";
-import { PhantomWalletAdapter } from "@solana/wallet-adapter-wallets";
+//import { PhantomWalletAdapter } from "@solana/wallet-adapter-wallets";
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
 import "@solana/wallet-adapter-react-ui/styles.css";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const wallets = [new PhantomWalletAdapter()];
+const wallets = []; // new PhantomWalletAdapter()
 
 root.render(
   <React.StrictMode>

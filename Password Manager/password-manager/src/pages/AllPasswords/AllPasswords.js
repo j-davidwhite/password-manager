@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Vault from "../../components/Vault";
 import NewPassword from "../../components/NewPassword/NewPassword";
 import GeneratePassword from "../../components/GeneratePassword/GeneratePassword";
+import Anchor from "../../components/Anchor";
 
 import "./AllPasswords.css";
 import "../../components/GeneratePassword/GeneratePassword";
@@ -33,6 +34,7 @@ const Passwords = () => {
         </div>
         <div className="main-card-bottom">
           <Vault />
+          <Anchor />
           <button
             onClick={handleNewPassPage}
             className={`add-password--btn ${addCardTrans ? "show-new" : ""}`}

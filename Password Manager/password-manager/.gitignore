@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ignore everything in the programs folder
+program/*
+
+# Don't ignore the src directories (this is where the source code typically is)
+!program/program/src/

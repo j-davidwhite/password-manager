@@ -10,7 +10,7 @@ const Settings = () => {
         <div className="settings--nav-item">
           <NavLink
             className="settings--nav-link"
-            activeClassName="active"
+
             to="/settings/profile"
           >
             Profile
@@ -19,7 +19,7 @@ const Settings = () => {
         <div className="settings--nav-item">
           <NavLink
             className="settings--nav-link"
-            activeClassName="active"
+
             to="/settings/account"
           >
             Account
@@ -28,7 +28,7 @@ const Settings = () => {
         <div className="settings--nav-item">
           <NavLink
             className="settings--nav-link"
-            activeClassName="active"
+  
             to="/settings/wallet"
           >
             Wallet
@@ -37,7 +37,7 @@ const Settings = () => {
         <div className="settings--nav-item">
           <NavLink
             className="settings--nav-link"
-            activeClassName="active"
+ 
             to="/settings/appearance"
           >
             Appearance

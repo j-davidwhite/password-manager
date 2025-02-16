@@ -81,7 +81,7 @@ const GeneratePassword = ({
                 onChange={(e) => setUppercase(e.target.checked)}
                 name="uppercase"
                 color="primary"
-                defaultChecked
+             
               />
             }
             label="Include Uppercase Letters"
@@ -93,7 +93,7 @@ const GeneratePassword = ({
                 onChange={(e) => setDigits(e.target.checked)}
                 name="digits"
                 color="primary"
-                defaultChecked
+           
               />
             }
             label="Include Digits"
@@ -105,7 +105,7 @@ const GeneratePassword = ({
                 onChange={(e) => setSymbols(e.target.checked)}
                 name="symbols"
                 color="primary"
-                defaultChecked
+      
               />
             }
             label="Include Symbols"

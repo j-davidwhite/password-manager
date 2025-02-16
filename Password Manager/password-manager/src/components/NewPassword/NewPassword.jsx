@@ -55,9 +55,7 @@ const NewPassword = ({
             onChange={handleChange}
             label="Tag"
             variant="standard"
-            InputLabel={{
-              style: { fontSize: "14px" },
-            }}
+            
           >
             <MenuItem value="">
               <em>None</em>

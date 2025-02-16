@@ -43,7 +43,7 @@ const Profile = () => {
 
       <span></span>
 
-      <di className="profile--name">
+      <div className="profile--name">
         <div className="profile--label">Name</div>
         <div className="profile--value">
           {firstName} {lastName}
@@ -51,7 +51,7 @@ const Profile = () => {
         <button onClick={handleNameModal} className="profile--edit-btn">
           {isNameModalOpen ? "Back" : "Edit"}
         </button>
-      </di>
+      </div>
       {isNameModalOpen && (
         <div className="name-modal">
           <div>Enter your first and last</div>
